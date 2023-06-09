@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/datagridRast/static/css/main.31d6cfe0.css",
+    "main.js": "/datagridRast/static/js/main.4cb9a1f6.js",
+    "index.html": "/datagridRast/index.html",
+    "main.4cb9a1f6.js.map": "/datagridRast/static/js/main.4cb9a1f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.4cb9a1f6.js"
+  ]
+}
