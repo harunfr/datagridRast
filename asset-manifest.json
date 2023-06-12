@@ -1,12 +1,29 @@
 {
   "files": {
-    "main.css": "/datagridRast/static/css/main.31d6cfe0.css",
-    "main.js": "/datagridRast/static/js/main.4cb9a1f6.js",
+    "main.css": "/datagridRast/static/css/main.8b8f98ef.css",
+    "main.js": "/datagridRast/static/js/main.b3ca9777.js",
+    "static/media/fa-solid-900.ttf": "/datagridRast/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/datagridRast/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/datagridRast/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/datagridRast/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/datagridRast/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/dxicons.woff": "/datagridRast/static/media/dxicons.c568ff14b17313b699e2.woff",
+    "static/media/dxicons.ttf": "/datagridRast/static/media/dxicons.506efc48bb7054c11c4d.ttf",
+    "static/media/fa-regular-400.woff2": "/datagridRast/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/dxicons.woff2": "/datagridRast/static/media/dxicons.dc1bbe3fe80897e2c012.woff2",
+    "static/media/fa-v4compatibility.ttf": "/datagridRast/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/logo.svg": "/datagridRast/static/media/logo.a9f71b10d17af9b0683835e526ced141.svg",
+    "static/media/fa-v4compatibility.woff2": "/datagridRast/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/behance.svg": "/datagridRast/static/media/behance.78a8c40c79dc4e5feac8ac3180915b44.svg",
+    "static/media/instagram.svg": "/datagridRast/static/media/instagram.7da83450c9db082d1861d53e6df0acb8.svg",
     "index.html": "/datagridRast/index.html",
-    "main.4cb9a1f6.js.map": "/datagridRast/static/js/main.4cb9a1f6.js.map"
+    "static/media/youtube.svg": "/datagridRast/static/media/youtube.494af21e169948b95bbec69434ba27ca.svg",
+    "static/media/linkedin.svg": "/datagridRast/static/media/linkedin.b2c72a62fac044c5682ae22f320e1e98.svg",
+    "main.8b8f98ef.css.map": "/datagridRast/static/css/main.8b8f98ef.css.map",
+    "main.b3ca9777.js.map": "/datagridRast/static/js/main.b3ca9777.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.4cb9a1f6.js"
+    "static/css/main.8b8f98ef.css",
+    "static/js/main.b3ca9777.js"
   ]
 }

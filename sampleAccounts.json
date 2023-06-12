@@ -1,0 +1,42 @@
+[
+  {
+    "link": "instagram.com/mobilerast",
+    "name": "instagram",
+    "description": "We'll help you to finish your development project successfully."
+  },
+  {
+    "link": "tr.linkedin.com/company/rastmobile",
+    "name": "linkedin",
+    "description": "Hire vetted developers from Rast Mobile to scale up your tech projects."
+  },
+  {
+    "link": "behance.net/rastmobile",
+    "name": "behance",
+    "description": "Software Development Agency Rast Mobile Information Technology Ltd."
+  },
+  {
+    "link": "twitter.com/rastmobile",
+    "name": "twitter",
+    "description": "Software Development Agency Rast Mobile Information Technology Ltd."
+  },
+  {
+    "link": "instagram.com/acme",
+    "name": "instagram",
+    "description": "A company makes everything."
+  },
+  {
+    "link": "tr.linkedin.com/company/acme",
+    "name": "linkedin",
+    "description": "Acme Company manufactures a wide range of products."
+  },
+  {
+    "link": "behance.net/acme",
+    "name": "behance",
+    "description": "At Acme Company, we produce a diverse array of goods."
+  },
+  {
+    "link": "twitter.com/acme",
+    "name": "twitter",
+    "description": "Acme Company is known for its ability to create a vast variety of items."
+  }
+]
