@@ -1,0 +1,85 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+}
+
+/* Modal'in temel font ozellikleri */
+.modal-body,
+.modal-footer button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+.modal-body {
+  color: #06163a;
+}
+.modal-content {
+  border-radius: 13px;
+}
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 29px;
+  padding-left: 30px;
+  padding-right: 34px;
+}
+
+/* ilk form input-label cifti */
+.form-group:first-child {
+  margin-top: 38px;
+}
+
+/* tum label lar */
+.form-group > label {
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+/* tum input lar */
+.form-group > input {
+  border-radius: 2rem;
+}
+
+/* modal uzerindeki bosluklar bu element ile ayarlaniyor */
+.modal-footer {
+  padding-right: 34px;
+  padding-top: 27px;
+  padding-bottom: 35px;
+  border: none;
+}
+
+/* Modal' in alt kismindaki vazgec ve kaydet butonu */
+.modal-footer button {
+  border-radius: 2rem;
+  padding: 9px 16px;
+  border: none;
+}
+.cancel-button {
+  color: var(--accent-solid);
+  background-color: #f5f7ff;
+}
+.save-button {
+  color: #fff;
+  background-color: var(--accent-solid);
+}
+
+/* Yukari sag kosedeki kapatma butonu */
+.close-icon {
+  font-weight: 100;
+  font-size: 38px;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 15px;
+  color: #33363f;
+  top: 7px;
+}
+
+.close-icon:hover {
+  cursor: pointer;
+}

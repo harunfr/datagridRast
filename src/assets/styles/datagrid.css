@@ -1,0 +1,279 @@
+/* datagrid*/
+.datagrid-container {
+  margin: 0 28px 32px 28px;
+  padding: 0 75px;
+  background: var(--main-bg);
+  border-radius: 6px;
+  animation: slideUp 0.5s forwards;
+}
+
+/* Tum Grid elementi: tablo + diger elementler */
+.dx-datagrid {
+  background-color: unset;
+}
+
+/* Kolon basliklari disaridaki wrapper */
+.dx-datagrid-headers {
+  border: 1px solid #eaeaea;
+  border-bottom: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* Kolon basliklarinin alt border' i */
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+  border-bottom-color: #c4cee5;
+  border-left-color: #eaeaea;
+}
+
+/* Kolon basliklari daha icerideki wrapper  */
+.dx-datagrid-headers .dx-header-row .dx-datagrid-text-content {
+  font-weight: 500;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+
+/* Tum ilk kolonlar */
+tr.dx-row td:first-child {
+  padding-left: 57px !important;
+}
+
+/* Tek Satir */
+.dx-row.dx-data-row.dx-column-lines:hover {
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.11);
+}
+
+.dx-datagrid-rowsview {
+  border: 1px solid #eaeaea;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Tablonun yukarisindaki kisim */
+.dx-toolbar.dx-widget {
+  background-color: unset;
+}
+
+/* Tum hucreler, kolon basliklari + veri hucreleri */
+.dx-datagrid .dx-row {
+  height: 66px;
+  font-size: 12px;
+}
+
+/* Kolon basliklari ve tum hucreler */
+.dx-datagrid-content .dx-datagrid-table .dx-row > td,
+.dx-datagrid-content .dx-datagrid-table .dx-row > tr > td {
+  vertical-align: middle;
+  padding-left: 26px;
+}
+
+/* Tek numarali veri satirlari */
+tbody tr:nth-child(odd) td {
+  background-color: #ffffffb5;
+}
+
+/* Cift numarali veri satirlari */
+tbody tr:nth-child(even) td {
+  background-color: transparent;
+}
+
+/* Veri satirlari */
+.dx-row.dx-data-row td {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Tablonun ust panel kismi */
+.dx-datagrid-header-panel {
+  border: 0;
+  margin-bottom: 8px; /* sonuc: 3px fazla olacak = 11px */
+  margin-top: 44px;
+}
+
+/* Tablonun alt panel kismi */
+.dx-widget.dx-datagrid-pager {
+  border: 0;
+}
+
+/* Hesap ekleme butonu ikonu */
+i.dx-icon.dx-icon-add {
+  color: white;
+}
+
+/* Search panel wrapper */
+.dx-datagrid-search-panel.dx-searchbox {
+  margin-left: 0px;
+  border: 0;
+  margin-right: 9px;
+}
+
+.dx-item-content.dx-toolbar-item-content .dx-datagrid-search-panel {
+  border-radius: 2rem;
+}
+
+/* Pill shaped pager input wrapper */
+.dx-searchbox .dx-texteditor-container .dx-texteditor-input-container {
+  flex-direction: row-reverse;
+  height: 42px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+}
+
+/* Search panelin input elementi */
+.dx-searchbox .dx-texteditor-container .dx-texteditor-input-container input {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  color: #8c8c8c;
+}
+
+/* Search panel ikon */
+.dx-datagrid-search-panel .dx-icon-search:before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f002';
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-right: 5.6px;
+}
+
+/* Search icon wrapper */
+.dx-icon.dx-icon-search {
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: var(--accent-solid);
+  height: 42px;
+  display: flex;
+  margin-top: -21px;
+  width: 47px;
+  justify-content: center;
+}
+
+/* Filtre Ikonu */
+i.dx-icon.dx-icon-filter {
+  color: var(--accent-solid);
+}
+
+/* Pager */
+.dx-page-sizes::before {
+  content: 'Show:';
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--accent-solid);
+}
+
+.dx-page-sizes {
+  display: flex;
+  column-gap: 23px;
+  align-items: center;
+}
+
+.dx-selectbox.dx-textbox {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  border-radius: 2rem;
+  width: 90px !important;
+  border: 1px solid #cfc0ff;
+  overflow: hidden;
+}
+
+.dx-page-sizes .dx-texteditor-input-container::after {
+  content: 'rows';
+}
+
+.dx-page-sizes .dx-texteditor-input {
+  padding-left: 16px;
+}
+
+/* Pager dropdown ikonu */
+.dx-dropdowneditor-icon::before {
+  color: var(--accent-solid);
+  position: absolute;
+  top: 20px;
+}
+.dx-dropdowneditor-icon::after {
+  content: '\f002';
+  padding-top: 2px;
+  color: var(--accent-solid);
+}
+
+/* Paging Stil*/
+.dx-navigate-button.dx-next-button:not(.dx-button-disable),
+.dx-navigate-button.dx-prev-button:not(.dx-button-disable) {
+  color: var(--accent-solid);
+}
+
+.dx-page-indexes,
+.dx-page-index,
+.dx-pages-count {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+}
+
+.dx-info.dx-info-text {
+  color: 'C9C9C9';
+}
+
+.dx-pages-count {
+  color: var(--accent-solid);
+}
+
+/* Siralama ikonu bolumleri */
+.dx-sort.dx-sort-up,
+.dx-sort.dx-sort-down {
+  position: relative;
+}
+
+.dx-sort.dx-sort-up::before,
+.dx-sort.dx-sort-down::before {
+  position: absolute;
+  left: -13px;
+  bottom: -5px;
+  font-size: 20px;
+}
+.dx-sort.dx-sort-up::before {
+  color: var(--accent-solid);
+}
+
+/* Media query */
+
+@media (max-width: 1050px) {
+  .datagrid-container {
+    padding: 0 19px;
+  }
+
+  tr.dx-row td:first-child {
+    padding-left: 26px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .dx-toolbar-after {
+    left: -14.5px;
+    top: -54px;
+  }
+  .datagrid-container {
+    padding-top: 42px;
+  }
+}
+
+@media (max-width: 600px) {
+  .datagrid-container {
+    padding: 30px 10px 20px 10px;
+    margin: 0;
+  }
+}
+
+/* Keyframe */
+@keyframes slideUp {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

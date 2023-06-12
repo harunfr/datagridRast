@@ -1,0 +1,71 @@
+.header {
+  padding: 16px 0px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 103px;
+
+  animation: slideRight 0.5s forwards;
+}
+
+/* Yazi seklindeki linklerin responsive olmasi icin */
+.main-menu {
+  column-gap: calc(15vw - 131px);
+}
+
+.socials {
+  display: flex;
+  column-gap: 14px;
+  padding-top: 8px;
+}
+
+/*? Bootstrap degerlerini degistirme*/
+
+.collapse.navbar-collapse {
+  justify-content: space-around;
+  /* column-gap: 40px; */
+}
+
+.divider {
+  display: none;
+  width: 40%;
+}
+
+/* Media query */
+@media (max-width: 1200px) {
+  .navbar-toggler {
+    order: 1;
+    margin-left: 0;
+  }
+
+  .socials {
+    flex-direction: row;
+    column-gap: 18px;
+    padding-top: 0;
+    margin-right: 20px;
+  }
+
+  .divider {
+    display: block;
+  }
+}
+
+@media (max-width: 1050px) {
+  .header {
+    margin: 0 47px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    margin: 0 10px;
+  }
+}
+
+/* Keyframe */
+@keyframes slideRight {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

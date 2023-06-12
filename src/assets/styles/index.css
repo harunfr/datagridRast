@@ -1,0 +1,39 @@
+:root {
+  --accent-solid: #744bfc;
+  --main-bg: linear-gradient(
+    180deg,
+    #eff2ff -30.56%,
+    rgba(232, 236, 255, 0) 135.85%
+  );
+}
+
+.hovered-row {
+  box-shadow: 0px 1px 15px var(--hovered-row-bg);
+}
+
+/* Anchor (link) reset */
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.dx-theme-generic-typography a {
+  color: unset;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* List item reset */
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+}
