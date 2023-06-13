@@ -10,12 +10,15 @@ import {
 import '../assets/styles/datagrid.css'
 
 function CustomDataGrid({ accounts, handleModalShow }) {
-  const [currentPage, setCurrentPage] = useState(1)
+  const [currentPage, setCurrentPage] = useState(8)
+  const [pageSize, setPageSize] = useState(4)
 
-  const pageSize = 8
+  const handlePageIndexChange = (selectedPageIndex) => {
+    setCurrentPage(selectedPageIndex)
+  }
 
-  const handlePageChange = (e) => {
-    setCurrentPage(e.component.pageIndex() + 1)
+  const handlePageSizeChange = (selectedPageSize) => {
+    setPageSize(selectedPageSize)
   }
 
   const handleFilterButtonClick = () => {
@@ -96,17 +99,25 @@ function CustomDataGrid({ accounts, handleModalShow }) {
           width={340}
           placeholder={'Search objects...'}
         />
-        <Paging
-          enabled={true}
-          pageSize={pageSize}
-          defaultPageIndex={currentPage - 1}
-          onPageChanged={handlePageChange}
-        />
+
+        {/* sol alt | sayfa basina goster kismi */}
         <Pager
           visible={true}
           displayMode="compact"
           showPageSizeSelector={true}
           allowedPageSizes={[4, 8, 12, 24]}
+        />
+
+        {/* sag alt | n inci sayfayi goster kismi */}
+        <Paging
+          enabled={true}
+          // index ve sayfa boyutu
+          defaultPageIndex={currentPage}
+          pageIndex={currentPage}
+          pageSize={pageSize}
+          // index ve sayfa boyutu icin handler fonksiyonlari
+          onPageSizeChange={handlePageSizeChange}
+          onPageIndexChange={handlePageIndexChange}
         />
 
         {/* Kolonlar */}
