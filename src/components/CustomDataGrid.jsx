@@ -10,8 +10,8 @@ import {
 import '../assets/styles/datagrid.css'
 
 function CustomDataGrid({ accounts, handleModalShow }) {
-  const [currentPage, setCurrentPage] = useState(8)
-  const [pageSize, setPageSize] = useState(4)
+  const [currentPage, setCurrentPage] = useState(1)
+  const [pageSize, setPageSize] = useState(8)
 
   const handlePageIndexChange = (selectedPageIndex) => {
     setCurrentPage(selectedPageIndex)
@@ -112,8 +112,8 @@ function CustomDataGrid({ accounts, handleModalShow }) {
         <Paging
           enabled={true}
           // index ve sayfa boyutu
-          defaultPageIndex={currentPage}
-          pageIndex={currentPage}
+          defaultPageIndex={currentPage - 1}
+          pageIndex={currentPage - 1}
           pageSize={pageSize}
           // index ve sayfa boyutu icin handler fonksiyonlari
           onPageSizeChange={handlePageSizeChange}
