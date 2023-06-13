@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/datagridRast/static/css/main.8b8f98ef.css",
-    "main.js": "/datagridRast/static/js/main.63efb04f.js",
+    "main.js": "/datagridRast/static/js/main.6f29c2ba.js",
     "static/media/fa-solid-900.ttf": "/datagridRast/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/datagridRast/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/fa-solid-900.woff2": "/datagridRast/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
@@ -20,10 +20,10 @@
     "static/media/youtube.svg": "/datagridRast/static/media/youtube.494af21e169948b95bbec69434ba27ca.svg",
     "static/media/linkedin.svg": "/datagridRast/static/media/linkedin.b2c72a62fac044c5682ae22f320e1e98.svg",
     "main.8b8f98ef.css.map": "/datagridRast/static/css/main.8b8f98ef.css.map",
-    "main.63efb04f.js.map": "/datagridRast/static/js/main.63efb04f.js.map"
+    "main.6f29c2ba.js.map": "/datagridRast/static/js/main.6f29c2ba.js.map"
   },
   "entrypoints": [
     "static/css/main.8b8f98ef.css",
-    "static/js/main.63efb04f.js"
+    "static/js/main.6f29c2ba.js"
   ]
 }
