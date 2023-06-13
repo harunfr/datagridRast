@@ -14,7 +14,7 @@ function CustomDataGrid({ accounts, handleModalShow }) {
   const [pageSize, setPageSize] = useState(8)
 
   const handlePageIndexChange = (selectedPageIndex) => {
-    setCurrentPage(selectedPageIndex)
+    setCurrentPage(selectedPageIndex + 1)
   }
 
   const handlePageSizeChange = (selectedPageSize) => {
