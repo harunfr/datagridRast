@@ -26,7 +26,7 @@ Uygulama yeni basladiginda eger hic veri yoksa local storage yerine ornek verile
 
 ## Nasil calistirilir?
 
-Linux / MacOS ile:
+### Linux / MacOS ile:
 
 - Yeni bir klasör olusturup bu klasorde terminal acin ve asagidaki kodlari girin.
 
@@ -36,9 +36,7 @@ Linux / MacOS ile:
 
 - Tarayicida http://localhost:3000 adresine giderek uygulamanin canli halini gorebilirsiniz.
 
----
-
-Windows ile:
+### Windows ile:
 
 - İlk olarak, projeyi çalıştırmak istediğiniz bir dizinde yerel olarak bir klasör oluşturun.
 
@@ -53,5 +51,3 @@ Windows ile:
 - Projeyi çalıştırmak için şu komutları sırasıyla çalıştırın; once `npm install` daha sonra `npm start`
 
 - Tarayicida http://localhost:3000 adresine giderek uygulamanin canli halini gorebilirsiniz.
-
-- Search panel beklendigi gibi calismiyor, filtre islevsel degil.
